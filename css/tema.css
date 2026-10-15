@@ -1,0 +1,35 @@
+/* Figuritas - tema oscuro (se activa con data-tema="dark" en <html>) */
+:root[data-tema="dark"] {
+  --fondo: #140E24;
+  --panel: #20163A;
+  --linea: #9C86E0;
+  --sombra: #07040F;
+  --suave: #2E2152;
+  --texto: #F1ECFF;
+  --tenue: #B9AEDB;
+  --enlace: #B79CFF;
+  --foco: #FFC83D;
+  --s1: #2B1F52;
+  --s2: #4A3A12;
+  --s3: #4A1F3A;
+}
+
+:root[data-tema="dark"] .ic .luna {
+  display: none
+}
+
+:root[data-tema="dark"] .ic .sol {
+  display: block
+}
+
+:root[data-tema="dark"] th {
+  background: #4A2FA0
+}
+
+:root[data-tema="dark"] .puntos button {
+  border-color: #F1ECFF
+}
+
+:root[data-tema="dark"] .puntos button[aria-current="true"] {
+  background: #F1ECFF
+}

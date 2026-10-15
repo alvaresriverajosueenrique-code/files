@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-en="JavaScript | Figuritas">JavaScript | Figuritas</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/tema.css">
+  <link rel="stylesheet" href="css/extras.css">
+  <script>
+    (function () {
+      var t = null; try { t = localStorage.getItem("tema"); } catch (e) { }
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-tema", t);
+    })();
+  </script>
+</head>
+
+<body>
+
+  <!-- Símbolo del logo -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="logo" viewBox="0 0 120 120">
+        <path d="M60 6C88 5 114 28 113 59C112 90 88 115 58 114C29 113 6 90 7 60C8 30 31 7 60 6Z" fill="#F2B84B" />
+        <rect x="32" y="92" width="56" height="14" rx="7" fill="#C8734A" stroke="#1F2A30" stroke-width="4"
+          stroke-linejoin="round" />
+        <path d="M41 92C41 74 47 64 60 64C73 64 79 74 79 92Z" fill="#2F5D50" stroke="#1F2A30" stroke-width="4"
+          stroke-linejoin="round" />
+        <circle cx="60" cy="43" r="20" fill="#FBE3C0" stroke="#1F2A30" stroke-width="4" />
+        <path d="M41 38C43 22 77 22 79 38C69 31 51 31 41 38Z" fill="#6BB898" stroke="#1F2A30" stroke-width="4"
+          stroke-linejoin="round" />
+        <circle cx="53" cy="46" r="2.8" fill="#1F2A30" />
+        <circle cx="67" cy="46" r="2.8" fill="#1F2A30" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="top">
+    <div class="top-in">
+      <a class="marca" href="index.html"><svg width="42" height="42" aria-hidden="true">
+          <use href="#logo" />
+        </svg><span>Figuritas</span></a>
+      <nav id="nav" aria-label="Principal" data-en-aria-label="Main">
+        <a href="index.html" data-en="Home">Inicio</a>
+        <a href="javascript.html" aria-current="page">JavaScript</a>
+        <a href="jquery.html">jQuery</a>
+        <a href="json.html">JSON</a>
+        <a href="hosting.html" data-en="Hosting and domains">Hosting y dominios</a>
+        <a href="herramientas.html" data-en="Google Tools">Herramientas Google</a>
+        <a href="cuestionario.html" data-en="Web Quiz">Cuestionario Web</a>
+      </nav>
+      <div class="acciones">
+        <button id="btnMusica" type="button" class="ic" aria-pressed="false" aria-label="Reproducir música"
+          data-en-aria-label="Play music">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 18V5l11-2v13" />
+            <circle cx="6" cy="18" r="3" />
+            <circle cx="17" cy="16" r="3" />
+          </svg>
+        </button>
+        <button id="btnIdioma" type="button" class="ic" aria-label="Switch to English">EN</button>
+        <button id="btnTema" type="button" class="ic" aria-label="Cambiar a modo oscuro">
+          <svg class="luna" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" />
+          </svg>
+          <svg class="sol" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="pagina">
+      <h1>JavaScript (JS Vanilla)</h1>
+      <p
+        data-en="JavaScript is the programming language that makes a web page respond to what the person does: clicks, keys, forms and more. &quot;Vanilla&quot; means plain JavaScript, with no libraries.">
+        JavaScript es el lenguaje de programación que hace que una página web responda a lo que hace la persona: clics,
+        teclas, formularios y más. "Vanilla" significa JavaScript puro, sin librerías.</p>
+      <h2 data-en="HTML, CSS and JS">HTML, CSS y JS</h2>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th data-en="Technology">Tecnología</th>
+            <th data-en="Role">Rol</th>
+            <th data-en="Example">Ejemplo</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td data-en="Structure">Estructura</td>
+            <td data-en="A button and a title">Un botón y un título</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td data-en="Style">Estilo</td>
+            <td data-en="The button is green and round">El botón es verde y redondo</td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td data-en="Behavior">Comportamiento</td>
+            <td data-en="On click, the text changes">Al hacer clic, cambia el texto</td>
+          </tr>
+        </table>
+      </div>
+      <h2 data-en="Basic concepts">Conceptos básicos</h2>
+      <ul>
+        <li data-en="<b>Variables:</b> store data (<code>let nombre = &quot;Figuritas&quot;</code>)."><b>Variables:</b>
+          guardan datos (<code>let nombre = "Figuritas"</code>).</li>
+        <li data-en="<b>Functions:</b> reusable blocks of code."><b>Funciones:</b> bloques de código reutilizables.</li>
+        <li data-en="<b>Events:</b> reactions to actions such as <code>click</code> or <code>mouseover</code> (hover).">
+          <b>Eventos:</b> reacciones a acciones como <code>click</code> o <code>mouseover</code> (hover).</li>
+      </ul>
+      <h2 data-en="Practical example">Ejemplo práctico</h2>
+      <pre><code>const boton = document.getElementById("regar");
+let figuras = 0;
+
+function agregar() {
+  figuras = figuras + 1;
+  boton.textContent = "Figuras: " + figuras;
+}
+boton.addEventListener("click", agregar);</code></pre>
+      <p
+        data-en="The button is saved in a variable, the function <code>agregar</code> is created and connected to the event <code>click</code>. Try it:">
+        Se guarda el botón en una variable, se crea la función <code>agregar</code> y se conecta al evento
+        <code>click</code>. Pruébalo:</p>
+      <button class="btn" id="regar" type="button">Figuras: 0</button>
+      <section class="res card">
+        <h2 data-en="Resources and bibliography">Recursos y bibliografía</h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+          <li><a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting" target="_blank"
+              rel="noopener" data-en="MDN: Getting started with JavaScript">MDN: Primeros pasos con JavaScript</a></li>
+          <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer data-en="School project: Figuritas. Built with HTML, CSS and JavaScript.">Proyecto escolar: Figuritas. Hecho con HTML,
+    CSS y JavaScript.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/musica.js"></script>
+  <script src="js/tema.js"></script>
+  <script src="js/idioma.js"></script>
+</body>
+
+</html>
