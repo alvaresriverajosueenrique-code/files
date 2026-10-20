@@ -68,8 +68,10 @@ Explicación técnica del funcionamiento:
 
 ![Notificación del webhook en Discord](img/discord.png) 
 ![Estado del despliegue en Vercel](img/vercel.png) 
-[Capturas restantes según la guía]
-
+![contactnos](img/contatos.png) 
+![navegador](img/navegador.png) 
+![Congratulations](img/Congratulations.png) 
+![repositorio](img/repositorio.png)  
 ---
 
 ## 5. Conclusiones y Autoevaluación
