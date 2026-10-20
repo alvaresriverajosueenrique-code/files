@@ -1,9 +1,9 @@
 #  Portafolio de Proyecto Web: Figuritas
 
 **Estudiante:** [Josue Enrique Alvarez Rivera]
-**Fecha:** [Fecha de entrega]
-**Enlace al Sitio Web (Vercel):** https://brotasitio.vercel.app/
-**Repositorio GitHub:** https://github.com/emersonaviels-coder/brota-sitio
+**Fecha:** [Fecha de entrega 24/10/26]
+**Enlace al Sitio Web (Vercel):** https://files-navy-iota.vercel.app/ 
+**Repositorio GitHub:** https://github.com/alvaresriverajosueenrique-code/files 
 
 ---
 
@@ -19,7 +19,7 @@
 
 * **Logotipo:**
 
-![Logotipo de la Marca](logo.svg)
+![Logotipo de la Marca]![alt text](img/avatar_realista.png)
 
 * **Paleta de Colores:**
 
@@ -34,11 +34,12 @@
 
 * **Demostración del Carousel:**
 
-![Carousel de Productos](img/carousel-demo.png)
-
+![Carousel de Productos](img/goku.png) 
+![Carousel de Productos](img/marvel.png) 
+![Carousel de Productos](img/lol.png) 
 ---
 
-## 2. Investigación Técnica
+## 2. Investigación Técn|ica
 
 Resumen informativo de las subpáginas creadas:
 
@@ -65,8 +66,8 @@ Explicación técnica del funcionamiento:
 
 *(Consultar la Sección 5 de la guía para el detalle de las 5 capturas obligatorias)*
 
-![Notificación del webhook en Discord](img/discord-webhook.png)
-![Estado del despliegue en Vercel](img/vercel-status.png)
+![Notificación del webhook en Discord](img/discord.png) 
+![Estado del despliegue en Vercel](img/vercel.png) 
 [Capturas restantes según la guía]
 
 ---
@@ -99,4 +100,4 @@ audio/            música opcional
 
 ## Cómo verlo
 
-Abre `index.html` en el navegador o visita https://brotasitio.vercel.app/
+Abre `index.html` en el navegador o visita https://files-navy-iota.vercel.app/index.html 
