@@ -71,7 +71,8 @@ Explicación técnica del funcionamiento:
 ![contactnos](img/contatos.png) 
 ![navegador](img/navegador.png) 
 ![Congratulations](img/Congratulations.png) 
-![repositorio](img/repositorio.png)  
+![repositorio](img/repositorio.png) 
+![cuestionario](img/cuestionario.png) 
 ---
 
 ## 5. Conclusiones y Autoevaluación
